@@ -7,7 +7,7 @@
     <meta property="og:title" content="Villa Aguamarina - Luxury Todos Santos Real Estate">
     <meta property="og:description" content="Modern 2021 built 3BR/3.5BA villa with infinity pool and ocean views. 4 minutes to beach in premiere Las Tunas location.">
     <meta property="og:image" content="https://images.squarespace-cdn.com/content/v1/626c5be9b8fc365653a907d1/fbec0cd7-b901-4c7d-81a9-1dbd1bc01600/Aguamarina-34.jpg">
-    <title>Villa Aguamarina | Luxury Todos Santos Real Estate - $849,000</title>
+    <title>Villa Aguamarina | Luxury Todos Santos Real Estate - $849,000 | MLS #26-700</title>
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -562,6 +562,30 @@
             box-shadow: 0 10px 40px rgba(164, 123, 103, 0.4);
         }
         
+        /* Virtual Tour */
+        .virtual-tour {
+            background: white;
+        }
+        
+        .tour-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            margin-top: 3rem;
+        }
+        
+        .tour-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
         /* Footer */
         footer {
             background: var(--dark);
@@ -941,6 +965,20 @@
         </div>
     </section>
 
+    <!-- Virtual Tour -->
+    <section class="virtual-tour">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Explore</div>
+                <h2 class="section-title">Immersive 3D Virtual Tour</h2>
+                <p class="section-text">Experience Villa Aguamarina from anywhere in the world. Walk through every room, explore the details, and envision your life here.</p>
+            </div>
+            <div class="tour-container">
+                <iframe src="https://my.matterport.com/show/?m=ZRjSUdNWCFj&brand=0&help=1&nt=1" allowfullscreen allow="xr-spatial-tracking"></iframe>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact -->
     <section class="contact" id="contact">
         <div class="container">
@@ -1029,7 +1067,7 @@
             
             <div class="footer-bottom">
                 <p>&copy; 2026 Amy Rex Todos Santos. All rights reserved.</p>
-                <p>MLS #: Available Upon Request | Listed by Amy Rex, South Baja Realtors</p>
+                <p>MLS #26-700 | Listed by Amy Rex, South Baja Realtors | <a href="https://www.flexmls.com/share/DQla7/Villa-Aguamarina-SN-Ca-on-del-Gato-Pacific-" target="_blank" rel="noopener noreferrer" style="color: rgba(255, 255, 255, 0.6); text-decoration: underline;">View Full Listing</a></p>
             </div>
         </div>
     </footer>
